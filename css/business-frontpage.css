@@ -1,0 +1,171 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+/* GENERIC STYLES */
+
+h3{
+  color: #009cbb;
+  font-family:'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+h1, h2, h4, h5, h6 {
+  color: #fdd600!important;
+  font-family:'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+iframe {
+  width: 100%;
+}
+
+/* NAVIGATIONAL STYLES */
+
+.fa-twitter.fa-5{
+  font-size: 18px;
+}
+.bg-dark{
+  background: #00b2d6!important;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+}
+#navbarResponsive ul li a:hover {
+  position: relative;
+  color: #fff;
+  top:0px;
+  animation-name: nudge;
+  animation-duration: 0.5s;
+}
+
+/* NAV HOVER ANIMATION */
+
+@keyframes nudge {
+  0%{
+    top:0px;
+  }
+  50% {
+    top:3px;
+  }
+  100%{
+    top: 0px;
+  }
+}
+.nav-item.active{
+  font-weight: bold;
+}
+
+/* YELLOW HEADER STYLES */
+
+.business-header {
+  min-height: 300px;
+  background: #fdd600;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 20px 0 0 0;
+}
+.business-header img {
+  height: 40vh;
+  position: relative;
+  display: inline-block;
+  height: 90%;
+  vertical-align: middle;
+  padding: 0px;
+  margin:7px 0 0 0;
+  border: 15px solid #fff;
+}
+.business-header h1 {
+  text-align: left!important;
+  color: white!important;
+  font-weight: bold;
+  font-size: 38px;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+.business-header h2 {
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+.business-header .card {
+  height: 100%;
+}
+.business-header h1 .fa-paint-brush:before {
+  font-size: 26px;
+  position: relative;
+  top:0;
+  left: 0;
+  animation-duration: 2s;
+  animation-iteration-count: infinite; 
+  animation-name: pulse;
+}
+
+/* PAINTBRUSH COLOUR CHANGE ANIMATION */
+
+@keyframes pulse {
+  0% {
+    top:0;
+    left:0;
+  }
+  25% {
+    top:0px;
+    left:6px;
+  }
+  50% {
+    top:8px;
+    left: 6px;
+  }
+  75% {
+    top:0;
+    left: 6px;
+  }
+  100% {
+    top:0;
+    left: 0;
+  }
+}
+
+/* QUOTE STYLES */
+
+.business-header em.quote{
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+  font-size: 25px
+}
+blockquote{
+    border-left:none
+}
+.quote-box{
+    overflow: hidden;
+    margin-top: -50px;
+    padding-top: -100px;
+    border-radius: 17px;
+    margin-top: 25px;
+    color:white;
+    width: 95%;
+    color: white;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+.quotation-mark{
+    margin: -40px 0 -76px 0;
+    font-weight: bold;
+    font-size:100px;
+    color:white;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+.quote-text{
+    font-size: 30px;
+    margin-top: -65px;
+}
+.blog-post-bottom.pull-left{
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
